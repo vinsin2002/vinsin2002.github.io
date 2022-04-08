@@ -1,0 +1,123 @@
+html
+{
+    background-color: bisque;
+}
+#container
+{
+    margin-top: 0;
+    border: solid #5B7DB1 10px;
+    height: 70px;
+    background-color: #5B7DB1;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#logo
+{
+    height: 100px;
+    transition-duration: 0.7s;
+}
+#logo:hover
+{
+    height: 70px;
+    border-radius: 50%;
+}
+#list1 li
+{
+    display: inline;
+}
+#list1
+{
+    list-style: none;
+}
+button 
+{
+    position: relative;
+    display: inline-block;
+    margin: 15px;
+    padding: 15px 30px;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: orange;
+    background: transparent;
+    cursor: pointer;
+    transition: ease-out 0.5s;
+    border-radius: 30px;
+    border: 2px solid orange;
+    border-radius: 10px;
+    box-shadow: inset 0 0 0 0 orange;
+}
+button:hover 
+{
+    color: white;
+    box-shadow: inset 0 -100px 0 0 orange;
+}
+button:active 
+{
+    transform: scale(0.9);
+}
+#hero
+{
+    height: 800px;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+#herojr
+{
+    width: 90%;
+    height: 700px;
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: space-between;
+}
+#herologo
+{
+    height: 700px;
+}
+#text
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+p
+{
+font-family: 'DM Sans', sans-serif;
+font-size: 40px;
+color: #7882A4;
+text-align: center;
+}
+#footer
+{
+    width: auto;
+    height: 300px;
+    background-color: #5B7DB1;
+    font-family: 'DM Sans', sans-serif;
+}
+#list2
+{
+    list-style: none;
+    padding-top: 40px;
+}
+#list2 li
+{
+    margin-left: 80%;
+    color: orange;
+    font-size: 20px;
+}
+#list2 li a
+{
+    color: white;
+    text-decoration: none;
+}
